@@ -24,15 +24,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <form action="/action_page.php" target="_blank">
       <p><label><i class="fa fa-calendar-check-o"></i> Schedule a Tour</label></p>
       <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY" name="CheckIn" required>                  
-      <p><label><i class="fa fa-cock-0"></i> Time</label></p>
-      <input class="w3-input w3-border" type="number" value="1" name="Adults" min="10" max="16">
       <br>
-      <label for="dog-names">Choose a time to tour:</label> 
+      <label for="tour-times">Choose a time to tour:</label> 
       <br>
-    <select name="dog-names" id="dog-names"> 
-        <option value="rigatoni">10Am-11Am</option> 
-        <option value="dave">12Am-1Pm</option> 
-        <option value="pumpernickel">2Pm-3Pm</option> 
+    <select name="tour-times" id="tour-times"> 
+        <option value="10-11">10am-11am</option> 
+        <option value="12-1">12pm-1pm</option> 
+        <option value="2-3">2pm-3pm</option> 
     </select>
       <p><button class="w3-button w3-block w3-green w3-left-align" type="submit"><i class="fa fa-search w3-margin-right"></i> Search availability</button></p>
     </form>
